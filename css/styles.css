@@ -1,0 +1,72 @@
+/* Definindo fundo preto para toda a página */
+body {
+    background-color: black;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+    display: flex;
+    flex-direction: column; /* Organiza o conteúdo na vertical */
+}
+
+/* Cabeçalho (links de cadastro e login) */
+header {
+    background-color: black; /* Fundo preto */
+    color: white;             /* Cor do texto branca */
+    padding: 10px 20px;       /* Espaçamento para os links */
+    text-align: right;        /* Alinha os links à direita */
+}
+
+.top-links a {
+    color: white;             /* Cor branca para os links */
+    text-decoration: none;    /* Remove o sublinhado */
+    margin-left: 20px;        /* Espaçamento entre os links */
+    font-size: 14px;          /* Tamanho da fonte */
+}
+
+.top-links a:hover {
+    color: #4CAF50;           /* Altera a cor ao passar o mouse */
+}
+
+/* Container do formulário */
+.form-container {
+    background-color: white;
+    padding: 20px;
+    border-radius: 10px;      /* Arredondar os cantos */
+    width: 100%;              /* Ocupa toda a largura disponível */
+    max-width: 450px;         /* Largura máxima do container */
+    margin: 40px auto;        /* Espaço acima e abaixo do formulário, centralizado */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+h2 {
+    text-align: center;       /* Centraliza o título */
+}
+
+form {
+    display: flex;
+    flex-direction: column;    /* Exibe os campos de forma vertical */
+    gap: 15px;                 /* Espaçamento entre os campos */
+}
+
+input[type="email"],
+input[type="password"],
+input[type="text"] {
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 90%;               /* Garante que os inputs ocupem toda a largura */
+}
+
+button {
+    padding: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
